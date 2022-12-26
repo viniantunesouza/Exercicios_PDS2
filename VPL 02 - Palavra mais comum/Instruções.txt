@@ -1,0 +1,16 @@
+Uma palavra é qualquer string sem espaços. Exemplos de palavras incluem:
+
+Amor
+W3C
+14.000,318e12
+1+2
+Assim, a frase abaixo contém 15 palavras:
+O dia 13 de Fevereiro amanheceu com 13,45mm de chuva e 5+1,61 quartos de água.
+A palavra mais comum na frase acima é "de".
+
+Neste exercício, você deverá implementar um programa que leia uma série de palavras da entrada padrão, e imprima a palavra mais comum. Assuma que não haverá empates: toda frase de teste terá somente uma palavra mais comum. Alguns exemplos no formato "frase":[palavra] seguem abaixo:
+
+"Um dia um dia um":[um]
+"a b b a.":[b]
+
+Note que na primeira frase as palavras "Um" e "um" são diferentes. E note que na segunda frase há somente uma ocorrência da palavra "a" e uma ocorrência da palavra "a.", pois o ponto difere uma palavra da outra.
